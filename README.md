@@ -1,10 +1,12 @@
 # BrandClient
+BrandClient是一个调用BrandService的Demo；
+BrandService是提供算法服务的程序。
 # 接口说明
 （1）需要通过AIDL（[官方文档](https://developer.android.google.cn/guide/components/aidl.html?hl=zh-cn)）调用BrandService服务。
 （2）请先下载BrandService.apk（下载链接），并安装。
 # 调用方式
 ## 修改AndroidManifest.xml
-在`AndroidManifest.xml`中添加如下代码，和<application>一级：
+在`AndroidManifest.xml`中添加如下代码，和 <application>标签 一级：
 ```xml
     <queries>
         <package android:name="com.brandservice" />
