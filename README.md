@@ -29,6 +29,7 @@ BrandService是提供算法服务的程序。
 4. 查看是否生成java(generated)文件夹
 
 将目录结构切换到`Android`下，可能需要等待一会，才能看到该文件夹：
+
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/23087530/1683625385669-cba861c2-2d68-4ff9-8a62-338876038625.png#averageHue=%233b4044&clientId=u846ccdcc-872a-4&from=paste&height=308&id=u7f68bee4&originHeight=379&originWidth=360&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20383&status=done&style=none&taskId=u943a306b-3617-464a-90f4-67541440bfb&title=&width=293)
 # 调用接口获取结果
 Demo: `com.brandclient.MainActivity`
