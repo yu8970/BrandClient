@@ -6,7 +6,7 @@ BrandService是提供算法服务的程序。
 （2）请先下载BrandService.apk（下载链接），并安装。
 # 调用方式
 ## 修改AndroidManifest.xml
-在`AndroidManifest.xml`中添加如下代码，和 <application>标签 一级：
+在`AndroidManifest.xml`中添加如下代码，和 application标签 一级：
 ```xml
     <queries>
         <package android:name="com.brandservice" />
