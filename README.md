@@ -2,11 +2,11 @@
 BrandClient是一个调用BrandService的Demo；
 BrandService是提供算法服务的程序。
 # 接口说明
-（1）需要通过AIDL（[官方文档](https://developer.android.google.cn/guide/components/aidl.html?hl=zh-cn)）调用BrandService服务。
+（1）通过Android 接口定义语言（AIDL）（[官方文档](https://developer.android.google.cn/guide/components/aidl.html?hl=zh-cn)）调用BrandService服务。
 （2）请先下载BrandService.apk（下载链接），并安装。
 # 调用方式
 ## 修改AndroidManifest.xml
-在`AndroidManifest.xml`中添加如下代码，和 application标签 一级：
+在`AndroidManifest.xml`中添加如下代码，和 标签application 同级：
 ```xml
     <queries>
         <package android:name="com.brandservice" />
@@ -31,7 +31,7 @@ BrandService是提供算法服务的程序。
 将目录结构切换到`Android`下，可能需要等待一会，才能看到该文件夹：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/23087530/1683625385669-cba861c2-2d68-4ff9-8a62-338876038625.png#averageHue=%233b4044&clientId=u846ccdcc-872a-4&from=paste&height=308&id=u7f68bee4&originHeight=379&originWidth=360&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20383&status=done&style=none&taskId=u943a306b-3617-464a-90f4-67541440bfb&title=&width=293)
 # 调用接口获取结果
-**Demo: **`**com.brandclient.MainActivity**`
+Demo: `com.brandclient.MainActivity`
 ## 初始化连接
 ```kotlin
 class MainActivity : AppCompatActivity() {
@@ -65,4 +65,5 @@ val result = brandService?.getBrandResultFromService(descriptor)
     }
 ```
 # 接口返回的数据
+
 
